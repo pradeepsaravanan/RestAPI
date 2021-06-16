@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.font-head {
+  font-family: "Source Sans Pro", sans-serif;
+}
+body {
+  background-color: rgb(37, 36, 36);
+}
+
+.container {
+  display: flex;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.body {
+  display: grid;
+  grid-template-areas: "items details details";
+  color: aliceblue;
+}
+
+#items {
+  grid-area: items;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #fff;
+}
+
+#details {
+  grid-area: details;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.productName {
+  font-family: "Roboto", sans-serif;
+  width: 20%;
+  text-align: center;
+  padding: 2% 4%;
+  margin: 2%;
+  border: 2px solid #fff;
+}
+
+.productName:hover {
+  background-color: #fff;
+  color: black;
+}
